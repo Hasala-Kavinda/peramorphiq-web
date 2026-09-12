@@ -19,7 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link
+        {/*todo: implement the icons later.*/}
+        {/*<link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/icons/apple-touch-icon.png"
@@ -41,11 +42,11 @@ export default function RootLayout({
           rel="mask-icon"
           href="/icons/safari-pinned-tab.svg"
           color="#5bbad5"
-        />
+        />*/}
         {/* <meta name="msapplication-TileColor" content="#ffffff" /> */}
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <body></body>
+      <body>{children}</body>
     </html>
   );
 }
